@@ -11,6 +11,13 @@
 		456524D927FEBD990021A313 /* SwiftyLibTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456524CE27FEBD990021A313 /* SwiftyLibTest.framework */; };
 		456524DE27FEBD990021A313 /* SwiftyLibTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456524DD27FEBD990021A313 /* SwiftyLibTestTests.swift */; };
 		456524DF27FEBD990021A313 /* SwiftyLibTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 456524D127FEBD990021A313 /* SwiftyLibTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		456524EF27FEBDBE0021A313 /* SwiftyLibTestExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456524EE27FEBDBE0021A313 /* SwiftyLibTestExampleAppApp.swift */; };
+		456524F127FEBDBE0021A313 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456524F027FEBDBE0021A313 /* ContentView.swift */; };
+		456524F327FEBDBF0021A313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456524F227FEBDBF0021A313 /* Assets.xcassets */; };
+		456524F627FEBDBF0021A313 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456524F527FEBDBF0021A313 /* Preview Assets.xcassets */; };
+		4565250027FEBDC00021A313 /* SwiftyLibTestExampllAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456524FF27FEBDC00021A313 /* SwiftyLibTestExampllAppTests.swift */; };
+		4565250A27FEBDC00021A313 /* SwiftyLibTestExampllAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565250927FEBDC00021A313 /* SwiftyLibTestExampllAppUITests.swift */; };
+		4565250C27FEBDC00021A313 /* SwiftyLibTestExampllAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565250B27FEBDC00021A313 /* SwiftyLibTestExampllAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,6 +28,20 @@
 			remoteGlobalIDString = 456524CD27FEBD990021A313;
 			remoteInfo = SwiftyLibTest;
 		};
+		456524FC27FEBDC00021A313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456524C527FEBD990021A313 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456524EB27FEBDBE0021A313;
+			remoteInfo = SwiftyLibTestExampllApp;
+		};
+		4565250627FEBDC00021A313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456524C527FEBD990021A313 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456524EB27FEBDBE0021A313;
+			remoteInfo = SwiftyLibTestExampllApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +50,16 @@
 		456524D227FEBD990021A313 /* SwiftyLibTest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftyLibTest.docc; sourceTree = "<group>"; };
 		456524D827FEBD990021A313 /* SwiftyLibTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLibTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		456524DD27FEBD990021A313 /* SwiftyLibTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibTestTests.swift; sourceTree = "<group>"; };
+		456524EC27FEBDBE0021A313 /* SwiftyLibTestExampllApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLibTestExampllApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		456524EE27FEBDBE0021A313 /* SwiftyLibTestExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibTestExampleAppApp.swift; sourceTree = "<group>"; };
+		456524F027FEBDBE0021A313 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		456524F227FEBDBF0021A313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		456524F527FEBDBF0021A313 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		456524FB27FEBDC00021A313 /* SwiftyLibTestExampllAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLibTestExampllAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		456524FF27FEBDC00021A313 /* SwiftyLibTestExampllAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibTestExampllAppTests.swift; sourceTree = "<group>"; };
+		4565250527FEBDC00021A313 /* SwiftyLibTestExampllAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLibTestExampllAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4565250927FEBDC00021A313 /* SwiftyLibTestExampllAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibTestExampllAppUITests.swift; sourceTree = "<group>"; };
+		4565250B27FEBDC00021A313 /* SwiftyLibTestExampllAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibTestExampllAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +78,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		456524E927FEBDBE0021A313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456524F827FEBDC00021A313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4565250227FEBDC00021A313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +107,9 @@
 			children = (
 				456524D027FEBD990021A313 /* SwiftyLibTest */,
 				456524DC27FEBD990021A313 /* SwiftyLibTestTests */,
+				456524ED27FEBDBE0021A313 /* SwiftyLibTestExampleApp */,
+				456524FE27FEBDC00021A313 /* SwiftyLibTestExampleAppTests */,
+				4565250827FEBDC00021A313 /* SwiftyLibTestExampleAppUITests */,
 				456524CF27FEBD990021A313 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +119,9 @@
 			children = (
 				456524CE27FEBD990021A313 /* SwiftyLibTest.framework */,
 				456524D827FEBD990021A313 /* SwiftyLibTestTests.xctest */,
+				456524EC27FEBDBE0021A313 /* SwiftyLibTestExampllApp.app */,
+				456524FB27FEBDC00021A313 /* SwiftyLibTestExampllAppTests.xctest */,
+				4565250527FEBDC00021A313 /* SwiftyLibTestExampllAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +141,42 @@
 				456524DD27FEBD990021A313 /* SwiftyLibTestTests.swift */,
 			);
 			path = SwiftyLibTestTests;
+			sourceTree = "<group>";
+		};
+		456524ED27FEBDBE0021A313 /* SwiftyLibTestExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				456524EE27FEBDBE0021A313 /* SwiftyLibTestExampleAppApp.swift */,
+				456524F027FEBDBE0021A313 /* ContentView.swift */,
+				456524F227FEBDBF0021A313 /* Assets.xcassets */,
+				456524F427FEBDBF0021A313 /* Preview Content */,
+			);
+			path = SwiftyLibTestExampleApp;
+			sourceTree = "<group>";
+		};
+		456524F427FEBDBF0021A313 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				456524F527FEBDBF0021A313 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		456524FE27FEBDC00021A313 /* SwiftyLibTestExampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				456524FF27FEBDC00021A313 /* SwiftyLibTestExampllAppTests.swift */,
+			);
+			path = SwiftyLibTestExampleAppTests;
+			sourceTree = "<group>";
+		};
+		4565250827FEBDC00021A313 /* SwiftyLibTestExampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4565250927FEBDC00021A313 /* SwiftyLibTestExampllAppUITests.swift */,
+				4565250B27FEBDC00021A313 /* SwiftyLibTestExampllAppUITestsLaunchTests.swift */,
+			);
+			path = SwiftyLibTestExampleAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +229,59 @@
 			productReference = 456524D827FEBD990021A313 /* SwiftyLibTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		456524EB27FEBDBE0021A313 /* SwiftyLibTestExampllApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4565250D27FEBDC00021A313 /* Build configuration list for PBXNativeTarget "SwiftyLibTestExampllApp" */;
+			buildPhases = (
+				456524E827FEBDBE0021A313 /* Sources */,
+				456524E927FEBDBE0021A313 /* Frameworks */,
+				456524EA27FEBDBE0021A313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyLibTestExampllApp;
+			productName = SwiftyLibTestExampllApp;
+			productReference = 456524EC27FEBDBE0021A313 /* SwiftyLibTestExampllApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		456524FA27FEBDC00021A313 /* SwiftyLibTestExampllAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4565251027FEBDC00021A313 /* Build configuration list for PBXNativeTarget "SwiftyLibTestExampllAppTests" */;
+			buildPhases = (
+				456524F727FEBDC00021A313 /* Sources */,
+				456524F827FEBDC00021A313 /* Frameworks */,
+				456524F927FEBDC00021A313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456524FD27FEBDC00021A313 /* PBXTargetDependency */,
+			);
+			name = SwiftyLibTestExampllAppTests;
+			productName = SwiftyLibTestExampllAppTests;
+			productReference = 456524FB27FEBDC00021A313 /* SwiftyLibTestExampllAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4565250427FEBDC00021A313 /* SwiftyLibTestExampllAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4565251327FEBDC00021A313 /* Build configuration list for PBXNativeTarget "SwiftyLibTestExampllAppUITests" */;
+			buildPhases = (
+				4565250127FEBDC00021A313 /* Sources */,
+				4565250227FEBDC00021A313 /* Frameworks */,
+				4565250327FEBDC00021A313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4565250727FEBDC00021A313 /* PBXTargetDependency */,
+			);
+			name = SwiftyLibTestExampllAppUITests;
+			productName = SwiftyLibTestExampllAppUITests;
+			productReference = 4565250527FEBDC00021A313 /* SwiftyLibTestExampllAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +297,17 @@
 					};
 					456524D727FEBD990021A313 = {
 						CreatedOnToolsVersion = 13.3;
+					};
+					456524EB27FEBDBE0021A313 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					456524FA27FEBDC00021A313 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 456524EB27FEBDBE0021A313;
+					};
+					4565250427FEBDC00021A313 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 456524EB27FEBDBE0021A313;
 					};
 				};
 			};
@@ -168,6 +326,9 @@
 			targets = (
 				456524CD27FEBD990021A313 /* SwiftyLibTest */,
 				456524D727FEBD990021A313 /* SwiftyLibTestTests */,
+				456524EB27FEBDBE0021A313 /* SwiftyLibTestExampllApp */,
+				456524FA27FEBDC00021A313 /* SwiftyLibTestExampllAppTests */,
+				4565250427FEBDC00021A313 /* SwiftyLibTestExampllAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +342,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		456524D627FEBD990021A313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456524EA27FEBDBE0021A313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456524F627FEBDBF0021A313 /* Preview Assets.xcassets in Resources */,
+				456524F327FEBDBF0021A313 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456524F927FEBDC00021A313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4565250327FEBDC00021A313 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,6 +390,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		456524E827FEBDBE0021A313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456524F127FEBDBE0021A313 /* ContentView.swift in Sources */,
+				456524EF27FEBDBE0021A313 /* SwiftyLibTestExampleAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456524F727FEBDC00021A313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4565250027FEBDC00021A313 /* SwiftyLibTestExampllAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4565250127FEBDC00021A313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4565250C27FEBDC00021A313 /* SwiftyLibTestExampllAppUITestsLaunchTests.swift in Sources */,
+				4565250A27FEBDC00021A313 /* SwiftyLibTestExampllAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,6 +423,16 @@
 			isa = PBXTargetDependency;
 			target = 456524CD27FEBD990021A313 /* SwiftyLibTest */;
 			targetProxy = 456524DA27FEBD990021A313 /* PBXContainerItemProxy */;
+		};
+		456524FD27FEBDC00021A313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456524EB27FEBDBE0021A313 /* SwiftyLibTestExampllApp */;
+			targetProxy = 456524FC27FEBDC00021A313 /* PBXContainerItemProxy */;
+		};
+		4565250727FEBDC00021A313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456524EB27FEBDBE0021A313 /* SwiftyLibTestExampllApp */;
+			targetProxy = 4565250627FEBDC00021A313 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -421,6 +641,134 @@
 			};
 			name = Release;
 		};
+		4565250E27FEBDC00021A313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftyLibTestExampllApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ani.SwiftyLibTestExampllApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4565250F27FEBDC00021A313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftyLibTestExampllApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ani.SwiftyLibTestExampllApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4565251127FEBDC00021A313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ani.SwiftyLibTestExampllAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyLibTestExampllApp.app/SwiftyLibTestExampllApp";
+			};
+			name = Debug;
+		};
+		4565251227FEBDC00021A313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ani.SwiftyLibTestExampllAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyLibTestExampllApp.app/SwiftyLibTestExampllApp";
+			};
+			name = Release;
+		};
+		4565251427FEBDC00021A313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ani.SwiftyLibTestExampllAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftyLibTestExampllApp;
+			};
+			name = Debug;
+		};
+		4565251527FEBDC00021A313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ani.SwiftyLibTestExampllAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftyLibTestExampllApp;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -447,6 +795,33 @@
 			buildConfigurations = (
 				456524E627FEBD990021A313 /* Debug */,
 				456524E727FEBD990021A313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4565250D27FEBDC00021A313 /* Build configuration list for PBXNativeTarget "SwiftyLibTestExampllApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4565250E27FEBDC00021A313 /* Debug */,
+				4565250F27FEBDC00021A313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4565251027FEBDC00021A313 /* Build configuration list for PBXNativeTarget "SwiftyLibTestExampllAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4565251127FEBDC00021A313 /* Debug */,
+				4565251227FEBDC00021A313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4565251327FEBDC00021A313 /* Build configuration list for PBXNativeTarget "SwiftyLibTestExampllAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4565251427FEBDC00021A313 /* Debug */,
+				4565251527FEBDC00021A313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
