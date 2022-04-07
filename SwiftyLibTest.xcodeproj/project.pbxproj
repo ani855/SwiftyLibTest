@@ -18,6 +18,7 @@
 		4565250027FEBDC00021A313 /* SwiftyLibTestExampllAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456524FF27FEBDC00021A313 /* SwiftyLibTestExampllAppTests.swift */; };
 		4565250A27FEBDC00021A313 /* SwiftyLibTestExampllAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565250927FEBDC00021A313 /* SwiftyLibTestExampllAppUITests.swift */; };
 		4565250C27FEBDC00021A313 /* SwiftyLibTestExampllAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565250B27FEBDC00021A313 /* SwiftyLibTestExampllAppUITestsLaunchTests.swift */; };
+		4565251727FECEF20021A313 /* SwiftyLibTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565251627FECEF20021A313 /* SwiftyLibTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		4565250527FEBDC00021A313 /* SwiftyLibTestExampllAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLibTestExampllAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4565250927FEBDC00021A313 /* SwiftyLibTestExampllAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibTestExampllAppUITests.swift; sourceTree = "<group>"; };
 		4565250B27FEBDC00021A313 /* SwiftyLibTestExampllAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibTestExampllAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4565251627FECEF20021A313 /* SwiftyLibTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		456524D027FEBD990021A313 /* SwiftyLibTest */ = {
 			isa = PBXGroup;
 			children = (
+				4565251627FECEF20021A313 /* SwiftyLibTest.swift */,
 				456524D127FEBD990021A313 /* SwiftyLibTest.h */,
 				456524D227FEBD990021A313 /* SwiftyLibTest.docc */,
 			);
@@ -379,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				456524D327FEBD990021A313 /* SwiftyLibTest.docc in Sources */,
+				4565251727FECEF20021A313 /* SwiftyLibTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +618,7 @@
 		456524E627FEBD990021A313 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -629,6 +634,7 @@
 		456524E727FEBD990021A313 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
